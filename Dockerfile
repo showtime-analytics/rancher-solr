@@ -1,4 +1,4 @@
-FROM showtimeanalytics/rancher-jvm8:0.0.2
+FROM showtimeanalytics/rancher-jre8:0.0.2
 MAINTAINER Alberto Gregoris <alberto@showtimeanalytics.com>
 
 #RUN apk update && apk add lsof && rm /var/cache/apk/*
