@@ -1,0 +1,11 @@
+[template]
+src="sorl.in.sh.tmpl"
+dest="/var/solr/sorl.in.sh"
+owner = "root"
+mode = "0644"
+keys = [
+  "/self",
+  "/stacks",
+]
+
+reload_cmd = "/opt/solr/bin/solr-restart.sh"
